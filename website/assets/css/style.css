@@ -1,0 +1,423 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    font-weight: 300;
+	text-align: justify;
+    -webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+a{
+	color: #fff;
+}
+a:focus{
+	outline:none;
+	outline-offset:inherit;
+}
+.section-style{
+	background-attachment:inherit;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+.pattern{
+	background:rgba(0,0,0,.5) url(https://scontent-lhr3-1.xx.fbcdn.net/t31.0-8/13130917_1018246224920380_7394462560691268955_o.jpg);
+	padding-top:100px;
+}
+.container{
+	overflow:hidden;
+}
+.section-name{
+	font-weight:300;
+	text-align:center;
+	text-transform:uppercase;
+	margin:0;
+}
+.section-name span{
+	display:inline-block;
+	position:relative;
+	padding-bottom:15px;
+}
+.section-name span:before,
+.section-name span:after{
+	content:"";
+	width:100%;
+	height:10px;
+	border-bottom:1px double #fff;
+	position:absolute;
+	left:0;
+}
+.section-name span:before{
+	bottom:0;
+}
+.section-name span:after{
+	bottom:2px;
+}
+.section-title{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:80px;
+}
+.section-description{
+	font-weight:300;
+	text-align:center;
+	line-height:30px;
+}
+.form-control{
+	padding: 6px 30px;
+}
+.form-control,
+.btn{
+	background-color:transparent;
+
+	-webkit-border-radius:0;
+	   -moz-border-radius:0;
+	    -ms-border-radius:0;
+	     -o-border-radius:0;
+	        border-radius:0;
+
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+ 	outline: none; 
+ 	color: #ffffff;
+}
+.form-control,
+.form-control:focus{
+	border-color:#fff;
+	color:#fff;
+
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	    -ms-box-shadow:none;
+	     -o-box-shadow:none;
+	        box-shadow:none;
+}
+
+/* 2.1 - Next Section
+------------------------------------------ */
+.next-section{
+	text-align:center;
+}
+.next-section a{
+	cursor:pointer;
+	display:inline-block;
+	width:120px;
+	height:120px;
+	
+	-webkit-border-radius:100%;
+	   -moz-border-radius:100%;
+	    -ms-border-radius:100%;
+	     -o-border-radius:100%;
+	        border-radius:100%;
+
+	background-color:rgba(0,0,0,.2);
+	box-shadow: 0 0 1px rgba(255,255,255,.2);
+	margin:70px;
+	padding-top:45px;
+	position:relative;
+}
+
+.next-section a span{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	border:2px solid #fff;
+	border-left-color:transparent;
+	border-top-color:transparent;
+	position:absolute;
+	top:20px;
+	left:35px;
+	
+	-webkit-transform:rotate(45deg);
+	   -moz-transform:rotate(45deg);
+	    -ms-transform:rotate(45deg);
+	     -o-transform:rotate(45deg);
+	        transform:rotate(45deg);
+
+	opacity:.4;
+
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.next-section a:hover span{
+	opacity:1;
+}
+/* 2.1 - Next Section End
+------------------------------------------ */
+
+
+
+
+/* 2.3 - Placeholder color
+------------------------------------------ */
+.form-control::-webkit-input-placeholder {
+   color: #ffffff;
+}
+
+.form-control:-moz-placeholder { 
+   color: #ffffff;  
+}
+
+.form-control::-moz-placeholder { 
+   color: #ffffff;  
+}
+
+.form-control:-ms-input-placeholder{
+	color:#ffffff;
+}
+/* 2.3 - Placeholder color End 
+------------------------------------------ */
+
+
+/* 2.4 - Height Resize
+------------------------------------------ */
+
+.pattern.height-resize{
+	padding-top: 30px;
+}
+.height-resize .time-count-container{
+	margin-top: 20px !important;
+}
+.height-resize .team-container .col-sm-4{
+	padding-top:20px !important;
+}
+/* 2.4 - Height Resize End 
+------------------------------------------ */
+
+
+/* 3 - Main Menu
+---------------------------------------------------------------------- */
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+	color:#fff;
+	background-color:transparent;
+}
+.navbar-default{
+	background-color:transparent;
+	border-color:transparent;
+}
+.navbar-default .navbar-nav>.active>a:after{
+	content:"\2192";
+	display:inline-block;
+	font-style:italic;
+	font-weight:300;
+	line-height:1;
+	margin-left:10px;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.navbar-nav>li>a{
+	padding:5px 15px;
+	font-weight:300;
+	font-style:italic;
+	
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.navbar-nav>li>a:hover{
+	padding-left:25px;
+}
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form{
+	border-color: transparent;
+}
+
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: none;
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+@media screen and (max-width: 992px){
+	#headernavigation{
+		background:rgba(0,0,0,.5);
+	}
+	.navbar-default .navbar-toggle:hover, 
+	.navbar-default .navbar-toggle:focus{
+		background-color:transparent;
+	}
+	.navbar-default .navbar-toggle{
+		margin-top: 15px;
+	}
+}
+@media screen and (min-width: 992px){
+	.navbar-fixed-top{
+		top:100px;
+		z-index:9999;
+	}
+	.navbar-default{
+		width:180px;
+	}
+	.navbar-nav>li{
+		float:none !important;
+	}
+}
+/* 3 - Main Menu End 
+---------------------------------------------------------------------- */
+
+
+
+/* 4 - Page Top Section 
+---------------------------------------------------------------------- */
+.site-title{
+	text-align:center;
+	font-size:45px;
+	font-family:'Open Sans', sans-serif;
+    font-weight: 300;
+	margin:0 0 50px 0;
+	padding-bottom:50px;
+	position:relative;
+}
+.site-title:before,
+.site-title:after{
+	content:"";
+	width:100px;
+	height:10px;
+	left:50%;
+	margin-left:-50px;
+	border-bottom:1px double #fff;
+	position:absolute;
+}
+.site-title:before{
+	bottom:0;
+}
+.site-title:after{
+	bottom:2px;
+}
+#page-top .section-name span:before,
+#page-top .section-name span:after{
+	content:none;
+}
+
+
+/* 4 - Page Top Section End 
+---------------------------------------------------------------------- */
+
+
+/* 5 - About Us Section
+---------------------------------------------------------------------- */
+.map-container .col-sm-10{
+	padding:30px 15px 0 15px;
+}
+.map-container .maping{
+    max-width:2000px; 
+	margin:auto;
+	position:relative;
+	overflow:hidden;
+}
+
+
+.map-container figcaption{
+	text-align:center;
+	text-transform:uppercase;
+	width:100%;
+	height:110px;
+	border:1px solid #fff;
+	border-top-color:transparent;
+	margin:0;
+}
+.map-container figcaption h4{
+	font-size:22px;
+	font-weight:700;
+	padding-top:10px;
+}
+.map-container .map-name {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 0;
+	padding: 26px 10px 5px 10px;
+}
+.map-container figcaption p{
+	font-size: 1.125em;
+}
+
+.map-container .map figure,
+.map-container .map  figcaption,
+.map-container .map  img{
+	
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.map-container .map :hover figure{
+	background-color:#3498db;
+	color:#fff;
+}
+.map-container .map :hover figcaption{
+	border-color:#3498db;
+	color:#fff;
+}
+
+
+/* 5 - About Us Section End 
+---------------------------------------------------------------------- */
+
+#map {
+    width: 100%; height: 100%; margin-top: 0px; margin-bottom: 0px;
+}
+
+#infoW{
+    width: 200px ;height: 120px;
+    font-family: 'Open Sans', sans-serif;
+    color:#000;
+}
